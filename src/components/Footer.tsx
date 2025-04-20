@@ -23,8 +23,9 @@ export default function Footer() {
         >
           <motion.div variants={staggerItem}>
             <div className="flex items-center gap-2 mb-5">
-              <span className="bg-primary rounded-md p-1.5">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              {/* <span className="bg-primary rounded-md p-1.5"> */}
+              <img src="http://alero.dev/wp-content/uploads/2025/04/ARCH-ICON-BLACK-PNG1.png" alt="" className="w-10 h-10 object-contain inline-block"/>
+                {/* <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M13 2.05C13 2.05 16 6 16 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M11 21.95C11 21.95 8 18 8 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -32,8 +33,8 @@ export default function Footer() {
                   <path d="M2.63 8.5H21.38" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M17 17L22 22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M17 22L22 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </span>
+                </svg> */}
+              {/* </span> */}
               <span className="text-xl font-bold">Arch</span>
             </div>
             <p className="text-neutral-400 mb-4">Simple stablecoin payment infrastructure for developers and businesses</p>
